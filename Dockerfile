@@ -18,4 +18,4 @@ ADD target/TodoDemo-0.0.1-SNAPSHOT.war /root/
 EXPOSE 3306
 EXPOSE 8080
 CMD ["/usr/bin/mysqld_safe"]
-ENTRYPOINT ["java","/root/TodoDemo-0.0.1-SNAPSHOT.war" ]
+ENTRYPOINT ["/usr/java/jdk/bin/java","/root/TodoDemo-0.0.1-SNAPSHOT.war" ]
